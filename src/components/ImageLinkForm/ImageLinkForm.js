@@ -9,7 +9,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
       </p>
       <div className="center">
         {/* make it smaller, add another div */}
-        <div className="form center pa4 br3 shadow-5 ba b--near-white">
+        <div className="form center pa4 br3 shadow-5">
           <input
             className="f4 pa2 w-70 center bg-light-gray"
             type="text"
@@ -17,7 +17,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
           />
           {/*size of 4, padding of 2, width 70%*/}
           <button
-            className="w-30 grow f4 link ph3 pv2 dib white bg-dark-gray"
+            className="w-30 grow f4 link ph3 pv2 dib white bg-blue"
             onClick={onButtonSubmit}
           >
             Detect
