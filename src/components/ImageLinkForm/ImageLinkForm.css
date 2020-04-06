@@ -1,0 +1,29 @@
+.form {
+  width: 700px;
+  background: radial-gradient(transparent 3px, transparent 4px),
+    radial-gradient(transparent 3px, transparent 4px),
+    linear-gradient(transparent 4px, transparent 0),
+    linear-gradient(
+      45deg,
+      transparent 74px,
+      transparent 75px,
+      #f4f4f4 75px,
+      #f4f4f4 76px,
+      transparent 77px,
+      transparent 109px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 75px,
+      transparent 76px,
+      #f4f4f4 76px,
+      #f4f4f4 77px,
+      transparent 78px,
+      transparent 109px
+    ),
+    transparent;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+
+  /* more at https://leaverou.github.io/css3patterns/# */
+}
