@@ -5,10 +5,10 @@ const FaceRecognition = ({ imageUrl, listBox }) => {
   return (
     <div className="center ma">
       <div className="absolute mt2">
-        <img id="inputImage" alt="" src={imageUrl} width="500px" heigh="auto" />
+        <img id="inputImage" alt="" src={imageUrl} width="500px" heigth="auto" />
         {listBox.map((box) => (
           <div
-            key={`box${box.topRow}${box.rightCol}`} //not necesarry, included to elimiminate warning
+            key={`box${box.topRow}${box.rightCol}`} //not necesarry, included to eliminate warning
             className="bounding-box"
             style={{
               top: box.topRow,
